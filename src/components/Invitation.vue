@@ -5,9 +5,9 @@
         <div class="cover-content" :class="{'invitation-up':isOpening}">
           <div class="content-inside">
             <img class="content-inside-photo" src="../images/photo.jpg">
-            <p>我们结婚啦！</p>
-            <p><b>Jun & undefined</b></p>
-            <p>时间：invalid date value</p>
+            <p>KAMI MENIKAH!!!!</p>
+            <p><b>DIMAS & undefined</b></p>
+            <p>Date：invalid date value</p>
             <p>lokasi：<b>location can not be found</b></p>
             <div class="content-inside-bless">
               <input

@@ -11,17 +11,17 @@
             <p>lokasi：<b>location can not be found</b></p>
             <div class="content-inside-bless">
               <input
-                placeholder="写下你的祝福" 
+                placeholder="Tulis Doamu!" 
                 @keyup.enter="sendBarrage"
                 @focus="isFocused = true"
                 @blur="isFocused = false, hasEntered = false"
                 v-model="wish"
                 ref="wishInput"
               >
-              <p v-if="!wish && isFocused && hasEntered">请输入祝福哦</p>
+              <p v-if="!wish && isFocused && hasEntered">Silahkan Masukan Ucapan selamat</p>
               <div>
-                <button @click="sendBarrage">发送祝福弹幕</button>
-                <button @click="closeInvitation">关闭</button>
+                <button @click="sendBarrage">Kirim Ucapan mu!!</button>
+                <button @click="closeInvitation">Tutup</button>
               </div>
             </div>
           </div>

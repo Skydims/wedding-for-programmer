@@ -13,13 +13,14 @@ Setelah meng-clone repositori ke lokal, langkah pertama adalah menginstal semua 
 yarn install
 ```
 
-再打开开发模式，实时调试。
+
+Kemudian buka mode pengembangan untuk melakukan debug secara real-time.。
 ```
 yarn run serve
 ```
 
-## 构建
-构建生产版本。
+Build
+Bangun versi produksi.
 ```
 yarn run build
 ```

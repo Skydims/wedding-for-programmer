@@ -25,7 +25,9 @@ Bangun versi produksi.
 yarn run build
 ```
 
-## 测试
+
+Pengujian
+Lakukan pengujian aplikasi.
 ```
 yarn run test
 ```

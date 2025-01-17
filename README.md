@@ -1,17 +1,14 @@
-# 程序员的婚礼邀请函
-这是我之前给自己准备的婚礼邀请函，但一直到现在也没用上。最近正好有空，把代码整理了一下开源了，给各位需要的程序员小伙伴。
+Undangan Pernikahan untuk Programmer
+Ini adalah undangan pernikahan yang sebelumnya saya siapkan untuk diri saya sendiri, tetapi hingga sekarang belum sempat digunakan. Kebetulan ada waktu luang, jadi saya rapikan kodenya dan membuka sumbernya untuk teman-teman programmer yang membutuhkan.
 
-打开邀请函之后，会先模拟编写一段代码，编写完成之后会模拟执行，成功后则打开邀请函。在邀请函内可以填写祝福语并发送，发送成功后关闭邀请函，显示弹幕。
+Setelah undangan dibuka, akan terlebih dahulu menampilkan simulasi penulisan sebuah kode program. Setelah selesai menulis, akan ada simulasi eksekusi kode. Jika berhasil, undangan pernikahan akan terbuka. Di dalam undangan, Anda dapat mengisi ucapan selamat dan mengirimkannya. Setelah ucapan terkirim, undangan akan ditutup, dan pesan ucapan akan tampil sebagai animasi running text.
 
-![](./invitation.jpg)
+Pengembangan
+Prasyarat
+Anda perlu menginstal lingkungan Node.js dan memiliki pengetahuan dasar tentang pengembangan frontend.
 
-在线体验：https://lab.juuust.com/a/wedding
+Setelah meng-clone repositori ke lokal, langkah pertama adalah menginstal semua dependensi.
 
-## 开发
-### 前提条件
-你需要安装 Node.js 环境，具备一定的前端知识。
-
-clone 到本地之后，先安装所有依赖。
 ```
 yarn install
 ```
